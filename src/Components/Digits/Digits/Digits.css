@@ -1,0 +1,9 @@
+.Digits {
+  color: #e6e6e6;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}

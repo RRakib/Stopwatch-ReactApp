@@ -1,0 +1,46 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  color: #e6e6e6;
+  text-align: center;
+}
+h1#_title {
+  font-size: 40px;
+}
+i.icon {
+  opacity: 0;
+  transition: 0.5s;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.Container:hover i.icon {
+  opacity: 1;
+}
+.Container input {
+  width: 50%;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-radius: 100px;
+  background: #e6e6e6;
+}
+.Container input:hover {
+  box-shadow: 0px 5px 20px rgba(0, 138, 202, 0.6);
+}
+
+
+
+@media screen and (max-width: 575px){
+  .Container input {
+    width: 100%;
+    font-size: 20px;
+  }
+  i.icon{
+    display: none;
+  }
+}
