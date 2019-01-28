@@ -61,7 +61,7 @@ class App extends Component {
           pause={this.getPause.bind(this)}
           restart={this.getReset.bind(this)}
         />
-        <footer>&copy; Developed By CODERs</footer>
+        <footer>&copy; Developed By Rakib Uddin</footer>
       </div>
     );
   }
